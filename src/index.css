@@ -11,3 +11,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.overlay {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 999;
+  
+}
