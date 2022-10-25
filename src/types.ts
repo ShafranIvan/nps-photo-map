@@ -27,10 +27,11 @@ export type Photo = {
 export type Place = {
   id: string; // globally unique place identifier
   name: string;
+  type: 'place' | 'campground' | 'visitorcenter'
   url?: string; // place URL from NPS API
   description: string;
   location: Coordinate;
-  cover?: Photo;
+  cover: Photo[];
 };
 
 export type Park = ParkHeader & {

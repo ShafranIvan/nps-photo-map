@@ -19,3 +19,11 @@ code {
   z-index: 999;
   
 }
+
+.overlay-info {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 999;
+  
+}
